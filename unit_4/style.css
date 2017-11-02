@@ -10,7 +10,7 @@ h1 {
 #slogin {
 	text-align: center;
 	font-size: 24px;
-	padding-bottom: : 60px;
+	padding-bottom: : 80px;
 }
 
 img {
@@ -20,7 +20,8 @@ img {
 
 .section {
 	font-size: 18px;
-	padding-left: 30px;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 #contact {

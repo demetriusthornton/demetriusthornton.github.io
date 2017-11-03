@@ -1,17 +1,21 @@
 
 
 h1 {
+	font-family: 'Acme', sans-serif;
 	font-size: 60px; 
 	padding-top: 60px;
 	text-align: center;
 	 
 }
 
+h3 {
+	font-family: 'Lato', sans-serif;
+}
 
-#benifit{
-	text-align: center;
-	font-size: 24px;
-	padding-bottom: : 80px;
+p {
+    font-family: 'Lato', sans-serif;
+		font-weight; 40px;
+		line-height: 2em; 
 }
 
 #slogin {
@@ -22,6 +26,7 @@ h1 {
 
 img {
 	padding-left: 325px;
+	align-content: center;
 
 }
 

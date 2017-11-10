@@ -29,6 +29,6 @@ h1 {
 		background-size:cover;
   		background-position:center;
   		<-! background-attachment:fixed;>
-  		padding-bottom: 200px;
+  		padding-bottom: 500px;
 		box-shadow: inset 0 0 10px #000000;
 }

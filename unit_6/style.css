@@ -1,10 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css?family=Acme|Lato');
 
 
 *{ margin:0; padding:0; box-sizing:border-box; }
-img {width:500px;
-	height: 
+img {width:50%px; 
 	
 	}
 
@@ -66,6 +64,7 @@ nav{
 	background-color: #0abab5;
 	padding: 20px 10px  10px 55%;
 	margin: 0px 2em;
+	text-align: right;
 }
 
 nav a { 
@@ -74,6 +73,7 @@ nav a {
 	font-size: 18px;
 	text-decoration: none;
 	display: inline-block;
+
 } 
 
 nav a:hover {
@@ -102,6 +102,7 @@ a:hover {
 #contact {
 	padding-left: 30px; 
 }
+
 .hero	{	
 	background-image: url(https://s3.us-east-2.amazonaws.com/ga-class-images/hero.jpg);
 	background-size: cover;
@@ -114,7 +115,6 @@ a:hover {
 
 #blurb1 {
 	display: inline-block;
-	float: none;
 	width: 600px;
 	padding-top: 30px; 
 	padding-right: 70px; 
@@ -124,17 +124,15 @@ a:hover {
 
 }
 
-#blurb2 {
+#reminder {
 	display: inline-block;
-	float: left;
-	width: 600px;
-	padding-top: 30px; 
-	padding-right: 70px; 
-	padding-left: 20px; 
-	margin-bottom: 30px;
-	clear: both; 
-}
-#section2{
+	float: right;
+	*width: 600px;
+	*padding-top: 30px; 
+	*padding-right: 70px; 
+	*padding-left: 20px; 
+	*margin-bottom: 30px;
+	clear:both;
 	background-color: #879EB8;
 	box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.5);
 }
@@ -152,6 +150,15 @@ a:hover {
 
 }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
 
 footer {
 	clear: both;
@@ -161,5 +168,3 @@ footer {
 #designed {
 	margin-right: 20px;
 }
-
-

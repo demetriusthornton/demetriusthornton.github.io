@@ -66,7 +66,7 @@ p {
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
 	color: #000
-	display:block;
+	display:inline-block;
 }
 
 nav{
@@ -86,8 +86,8 @@ nav a {
 } 
 
 nav a:hover {
-	background-color: #ba0a0f;
-	padding: 5px; 
+	background-color: tomato;
+	padding: 1px; 
 }
 
 a:hover {
@@ -126,8 +126,8 @@ a:hover {
 .blurb{
 	display: inline-block;
 	padding-top: 30px; 
-	padding-right: 70px; 
-	padding-left: 20px; 
+	*padding-right: 70px; 
+	*padding-left: 20px; 
 	margin-bottom: 30px;
 
 }
@@ -147,6 +147,21 @@ a:hover {
   font-size: 0;
 }
 
+.cta {
+	background-color: tomato;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#hero_cta{
+	margin: 45%;
+
+
+}
 
 footer {
 	clear: both;

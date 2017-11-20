@@ -7,6 +7,7 @@
 
 main {
 	background-color: #F7F7F7
+	max-width: 1920px;
 }
 
 .wrapper{
@@ -40,8 +41,6 @@ main {
 	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.47);
 	width: 50%;
 }
-
-
 
 body {
 	color:#333;
@@ -150,7 +149,6 @@ a:hover {
 .cta {
 	background-color: tomato;
 	padding: 10px;
-	margin-top: 10px;
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
@@ -158,9 +156,7 @@ a:hover {
 }
 
 #hero_cta{
-	margin: 45%;
-
-
+	margin: 50%;
 }
 
 footer {

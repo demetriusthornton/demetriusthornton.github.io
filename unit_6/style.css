@@ -2,20 +2,20 @@
 
 
 *{ margin:0; padding:0; box-sizing:border-box; }
-img {width:500px;
+img {width:50%;
 	}
 
 nav{
 	background-color: #0abab5;
 	padding: 20px 10px  10px 55%;
-	margin: 0px 2em;
 	text-align: right;
 }
 
 nav a { 
 	color: white;
 	margin: 1em;
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: bold;
 	text-decoration: none;
 	display: inline-block;
 
@@ -50,21 +50,23 @@ h2{
 	font-family: 'lato', sans-serif;
 }
 
+
 p {
 	color: #000;
-	display:inline-block;
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
 	margin: 20px;
 }
 
+/*
 #giftimg
 {
-	margin-top:  30px; 
+	margin-top: 30px; 
 	margin-left: 30px;
 	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.47);
-	width: 50%;
+	width: 50%; 
 }
+
 
 #reminderimg
 {
@@ -72,9 +74,6 @@ p {
 	margin-left: 30px;
 	margin-bottom: 30px;
 	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.47);
-	width: 50%;
-	
-
 }
 
 #buyimg
@@ -82,19 +81,17 @@ p {
 	margin-top:  30px; 
 	margin-left: 30px;
 	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.47);
-	width: 50%;
 }
 
-#gift{
-	float: right;
-}
+*/
+
 
 
 #slogin {
 	display: block;
 	text-align: center;
 	font-size: 26px;
-	padding-bottom: : 80px;
+	padding-bottom: 80px;
 }
 
 #htext{
@@ -120,28 +117,26 @@ p {
 	padding-bottom: 150px;
 }
 
+
 .blurb{
-	display: inline-block;
-	*padding-top: 30px; 
-	*padding-right: 70px; 
-	*padding-left: 20px; 
-	*margin-bottom: 30px;
+	padding-top: 30px; 
+	padding-left: 20px; 
+	margin-bottom: 30px;
+}
+
+
+#gift
+
+{
 	float: right;
 
 }
 
 #reminder {
+	display: inline-block;
+	float: right; 
 	background-color: #879EB8;
 	box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.5);
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
 }
 
 .cta {
@@ -164,6 +159,14 @@ footer {
 	padding-top: 5%
 }
 
-#designed {
-	margin-right: 20px;
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+
 }

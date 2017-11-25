@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Lato');
 
 
-*{ margin:0; padding:0; box-sizing:border-box; }
+*{ margin:0; padding:0; box-sizing:border-box;}
+
 img {width:50%;
 	}
 
+.wrapper
+	{max-width: 1920}
+
 nav{
 	background-color: #0abab5;
-	padding: 20px 10px  10px 55%;
+	padding: 20px 30px  10px 0;
+	margin-bottom: 10px;
 	text-align: right;
 }
 
@@ -26,62 +31,77 @@ nav a:hover {
 }
 
 a:hover {
-	color: #;
+	color: #343D47;
 }
 
-/*body {
-	color:#333;
-	font-family: 'Lato', sans-serif;
-	font-size:20px;
-	line-height:1.5em;
-	*/
-}
 
-h1 {
-	font-family: 'Acme', sans-serif;
-	font-size: 60px; 
-	padding-top: 60px;
-	text-align: center;	 
-}
-
-h2{
-	font-size: 26px;
-	font-family: 'lato', sans-serif;
-}
-
-/*
-p {
-	color: #000;
-	font-size: 20px;
-	font-family: 'Lato', sans-serif;
-	margin: 20px;
-}
-
-#giftimg
+/* Gift Section */
+.gift img
 {
-	margin-top: 30px; 
-	margin-left: 30px;
-	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.47);
-	width: 50%; 
+	float: left;
+	*margin:20px 0 0 0;
+	padding-left: 35px;
 }
 
-#reminderimg
+.giftblurb
+	{	
+		font-size: 20px;
+		float: left;
+		padding-left:20px;
+		padding-right: 100px;
+		margin: 85px 0;
+		width: 50%;
+	}
+
+.btn {
+	margin-top: 20px;
+}
+
+
+.reminder{
+	float: right;
+	display: inline-block;
+	background-color: #879EB8;
+}
+.reminder img 
+	{
+		float: right;
+		padding-right: 35px;
+	} 
+
+
+.reminderblurb
+	{
+		padding-top: 75px;
+		padding-right: 20px;
+		padding-left: 50px;
+		font-size: 20px;
+		text-align: right;
+		width: 50%;
+		margin-right: 10px;
+		line-height: 1.25em
+	}
+
+.buy img
 {
-	margin-top:  30px; 
-	margin-left: 30px;
-	margin-bottom: 30px;
-	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.47);
+	float: left;
+	margin:0px 0 0 0;
+	padding-left: 35px;
 }
 
-#buyimg
-{
-	margin-top:  30px; 
-	margin-left: 30px;
-	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.47);
+.buyblurb
+	{	
+		font-size: 20px;
+		float: left;
+		padding-left:20px;
+		padding-right: 100px;
+		margin: 85px 0;
+		width: 50%;
+	}
+
+.btn {
+	margin-top: 20px;
 }
-
-*/
-
 
 
 #slogin {
@@ -103,30 +123,19 @@ p {
 	padding-left: 30px; 
 }
 
-.hero	{	
+.hero{	
 	background-image: url(https://s3.us-east-2.amazonaws.com/ga-class-images/hero.jpg);
 	background-size: cover;
 	background-position: center;
 	box-shadow: inset 0 0 10px;
-	display: block;
-	margin: 0px 2em;
-	padding-top: 125px; 
-	padding-bottom: 150px;
-}
-
-
-.blurb {
 	display: inline-block;
-	padding: 30px 0; 
-	float: right; 
+	padding-bottom: 350px;
+	padding:20% 50%;
+	/*position: relative;opacity: 0.5;
+    filter: alpha(opacity=50);*/
+	
 }
 
-
-#reminder {
-	display: inline-block;
-	background-color: #879EB8;
-	box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.5);
-}
 
 .cta {
 	background-color: tomato;
@@ -136,16 +145,14 @@ p {
 	font-weight: bold;
 	text-align: center;
 	border-radius: 6px;
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
 }
 
-#hero_cta{
-	margin: 40%;
+.herobtn{
 	border-radius: 6px;
-}
-
-footer {
-	clear: both;
-	padding-top: 5%
+	margin-top:30px;
+	padding-left: 50%;
+	position: relative;
 }
 
 .clearfix:after {
@@ -157,5 +164,24 @@ footer {
   font-size: 0;
 }
 
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 90px;
+}
 
+.herotext
+{
+	color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p#tagline{
+	font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 100px;
 }

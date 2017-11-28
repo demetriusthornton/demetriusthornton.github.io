@@ -3,48 +3,48 @@
 
 *{ margin:0; padding:0; box-sizing:border-box;}
 
-img {width:50%;
+img {
+		width:50%;
 	}
 
-.wrapper
-	{max-width: 1920}
+.wrapper {
+		max-width: 1920px;
+	}
 
-nav{
-	background-color: #0abab5;
-	padding: 20px 30px 10px 0;
-	margin-bottom: 10px auto;
-	text-align:right;
-}
+nav	{
+		background-color: #0abab5;
+		padding: 20px 30px 10px 0;
+		margin-bottom: 10px auto;
+		text-align:right;
+	}
 
 nav a { 
-	color: white;
-	margin: 1em;
-	font-size: 20px;
-	text-decoration: none;
-	display: inline-block;
-	padding: 1px 0;
-} 
+		color: white;
+		margin: 1em;
+		font-size: 20px;
+		text-decoration: none;
+		display: inline-block;
+		padding: 1px 0;
+	} 
 
 nav a:hover {
-	background-color: tomato;
-	padding: 1px 0;
-}
+		background-color: tomato;
+		padding: 1px 0;
+	}
 
 a:hover {
-	color: #343D47;
-}
+		color: #343D47;
+	}
 
 
 /* Gift Section */
-.gift img
-{
-	float: left;
-	*margin:20px 0 0 0;
-	padding-left: 35px;
-}
+.gift img {
+		float: left;
+		*margin:20px 0 0 0;
+		padding-left: 35px;
+	}
 
-.giftblurb
-	{	
+.giftblurb {	
 		font-size: 20px;
 		float: left;
 		padding-left:20px;
@@ -53,27 +53,28 @@ a:hover {
 		width: 50%;
 	}
 
+
 .btn {
-	margin-top: 20px;
-}
+		margin-top: 20px;
+	}
 
 
-.reminder{
-	float: right;
-	display: inline-block;
-	background-color: #879EB8;
-	margin:auto;
-}
-.reminder img 
-	{
+.reminder {
+		float: right;
+		display: inline-block;
+		background-color: #879EB8;
+		margin:auto;
+	
+	}
+
+.reminder img {
 		float: right;
 		padding-right: 35px;
 		margin: 0px, 10px;
 	} 
 
 
-.reminderblurb
-	{
+.reminderblurb {
 		padding-top: 75px;
 		padding-right: 20px;
 		padding-left: 50px;
@@ -84,15 +85,14 @@ a:hover {
 		line-height: 1.25em
 	}
 
-.buy img
-{
+.buy img {
 	float: left;
 	margin:0px 0 0 0;
 	padding-left: 35px;
-}
+	
+	}
 
-.buyblurb
-	{	
+.buyblurb {	
 		font-size: 20px;
 		float: left;
 		padding-left:20px;
@@ -102,85 +102,84 @@ a:hover {
 	}
 
 .btn {
-	margin-top: 20px;
-}
+		margin-top: 20px;
+	}
 
 
 #slogin {
-	display: block;
-	text-align: center;
-	font-size: 26px;
-	padding-bottom: 80px;
-}
+		display: block;
+		text-align: center;
+		font-size: 26px;
+		padding-bottom: 80px;
+	}
 
-#htext{
-	display: block;
-	margin: 20px;
-	font-size: 18px;
-	padding: 0px 100px;
+#htext	{
+		display: block;
+		margin: 20px;
+		font-size: 18px;
+		padding: 0px 100px;
 
-}
+	}
 
 #contact {
-	padding-left: 30px; 
-}
+		padding-left: 30px; 
+	}
 
-.hero{	
-	background-image: url(https://s3.us-east-2.amazonaws.com/ga-class-images/hero.jpg);
-	background-size: cover;
-	background-position: center;
-	box-shadow: inset 0 0 10px;
-	display: inline-block;
-	padding-bottom: 350px;
-	padding:20% 50%;
-}
+.hero {	
+		background-image: url(https://s3.us-east-2.amazonaws.com/ga-class-images/hero.jpg);
+		background-size: cover;
+		background-position: center;
+		box-shadow: inset 0 0 10px;
+		display: inline-block;
+		padding-bottom: 350px;
+		padding:20% 50%;
+	}
 
 
 .cta {
-	background-color: tomato;
-	padding: 10px;
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	text-align: center;
-	border-radius: 6px;
-	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
-}
+		background-color: tomato;
+		padding: 10px;
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		border-radius: 6px;
+		box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+	}
 
-.herobtn{
-	border-radius: 6px;
-	margin-top:30px;
-	padding-left: 50%;
-	position: relative;
-}
+.herobtn {
+		border-radius: 6px;
+		margin-top:30px;
+		padding-left: 50%;
+		position: relative;
+	}
 
 .clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
+		visibility: hidden;
+		display: block;
+		content: " ";
+		clear: both;
+		height: 0;
+		font-size: 0;
+	}
 
 h1 {
-    text-align: center;
-    font-size: 40px;
-    padding-left: 90px;
-}
+	    text-align: center;
+	    font-size: 40px;
+	    padding-left: 90px;
+	}
 
-.herotext
-{
-	color: #000000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+.herotext {
+		color: #000000;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
 
-p#tagline{
-	font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    padding-left: 100px;
+p#tagline {
+		font-size: 1.5em;
+	    font-weight: bold;
+	    text-align: center;
+	    padding-left: 100px;
 }

@@ -3,12 +3,9 @@
 
 *{ margin:0; padding:0; box-sizing:border-box;}
 
-img {
+.blurbimg {
 	max-width: 50%;
 	}
-
-.wrapper
-	{max-width: 1920}
 
 nav{
 	background-color: #0abab5;
@@ -80,7 +77,6 @@ a:hover {
 }
 
 
-
 .buyblurb
 	{	
 		float: right;
@@ -102,36 +98,45 @@ a:hover {
 	padding-bottom: 80px;
 }
 
-#htext{
-	display: block;
-	margin: 20px;
-	font-size: 18px;
-	padding: 0px 100px;
-
-}
-
 #contact {
 	padding-left: 30px; 
 }
 
-.hero{	
+/*.hero{	
 	background-image: url(images/hero.jpg);
-	background-size: cover;
+	background-size: no-repeat;
 	background-position: center;
 	box-shadow: inset 0 0 10px;
 	display: inline-block;
 	padding-bottom: 350px;
 	padding:20% 50%;
 	width: 100% 
-}
+}*/
 
-
-.heroimg
-{
-
+#heroimg {
 	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: -1;
 }
 
+.herotext{
+	padding-top: 10%;
+	position: absolute;
+	margin: auto;
+	font-size: 18px;
+	text-shadow: 20px; 
+	color: #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.herobtn{
+	border-radius: 6px;
+	margin-top:30px;
+	padding-left: 50%;
+	position: relative;
+}
 
 .cta {
 	background-color: tomato;
@@ -142,13 +147,6 @@ a:hover {
 	text-align: center;
 	border-radius: 6px;
 	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
-}
-
-.herobtn{
-	border-radius: 6px;
-	margin-top:30px;
-	padding-left: 50%;
-	position: relative;
 }
 
 .clearfix:after {
@@ -165,7 +163,7 @@ h1 {
     font-size: 40px;
     padding-left: 90px;
 }
-
+/*
 .herotext
 {
 	color: #000000;
@@ -174,6 +172,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+*/
 
 p#tagline{
 	font-size: 1.5em;
@@ -186,8 +185,15 @@ p#tagline{
 @media only screen and (max-width: 950px) {
 
 	img {
-		max-width: 50%;
+		max-width: 100%;
 }
+
+	.herotext {
+	padding-top:10px; 
+	position: absolute;
+	margin: auto;
+}
+
 	h1 {
 
 		text-align: center;
@@ -221,7 +227,7 @@ p#tagline{
 
 	.herotext { 
 		float: none;
-		text-align: left;
+		text-align: center;
 		font-size: 16px;
 		min-width: 100%;
 	}
@@ -231,15 +237,14 @@ p#tagline{
 	}
 
 	img { 
-		min-width: 100%;
-		height: auto;
-		padding-bottom: 1em;
-
+		min-width: 100%;	
 	}
 
 	nav a {
 		font-size: 16px;
 	
 	}
+
+
 
 }

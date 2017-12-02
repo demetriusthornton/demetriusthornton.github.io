@@ -21,6 +21,7 @@ nav a {
 	text-decoration: none;
 	display: inline-block;
 	padding: 1px 0;
+
 } 
 
 nav a:hover {
@@ -28,10 +29,37 @@ nav a:hover {
 	padding: 1px 0;
 }
 
+nav img {
+	max-height: 50px;
+	float: none; 
+	margin-right:20px;
+
+}
+
 a:hover {
 	color: #343D47;
 }
 
+.hero {	
+	background-image: url(images/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	padding: 12em ;
+	position: relative;
+	width: 100%; 
+	}
+
+.hero h1{
+	font-size: 50px; 
+
+}
+
+.hero p {
+	font-size: 26px;
+}
 
 /* Gift Section */
 
@@ -102,43 +130,16 @@ a:hover {
 	padding-left: 30px; 
 }
 
-/*.hero{	
-	background-image: url(images/hero.jpg);
-	background-size: no-repeat;
-	background-position: center;
-	box-shadow: inset 0 0 10px;
+/*.herotext {
 	display: inline-block;
-	padding-bottom: 350px;
-	padding:20% 50%;
-	width: 100% 
-}*/
-
-#heroimg {
-	width: 100%;
-	background-color: rgba(0,0,0,0.5);
-	z-index: -1;
-}
-
-.herotext{
-	padding-top: 10%;
-	position: absolute;
-	margin: auto;
-	font-size: 18px;
+	font-size: 22px;
 	text-shadow: 20px; 
 	color: #000000;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	text-align: center;
 }
-
-.herobtn{
-	border-radius: 6px;
-	margin-top:30px;
-	padding-left: 50%;
-	position: relative;
-}
-
+*/
 .cta {
+	display: inline-block;
 	background-color: tomato;
 	padding: 10px;
 	text-decoration: none;
@@ -158,11 +159,12 @@ a:hover {
   font-size: 0;
 }
 
+/*
 h1 {
     text-align: center;
     font-size: 40px;
     padding-left: 90px;
-}
+}*/
 /*
 .herotext
 {
@@ -174,12 +176,6 @@ h1 {
 }
 */
 
-p#tagline{
-	font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    padding-left: 100px;
-}
 
 
 @media only screen and (max-width: 950px) {
@@ -190,7 +186,7 @@ p#tagline{
 
 	.herotext {
 	padding-top:10px; 
-	position: absolute;
+	position: relative;
 	margin: auto;
 }
 
@@ -225,12 +221,6 @@ p#tagline{
 		padding-bottom: 1.25em;
 	}
 
-	.herotext { 
-		float: none;
-		text-align: center;
-		font-size: 16px;
-		min-width: 100%;
-	}
 
 	h2 {
 		text-align: center;

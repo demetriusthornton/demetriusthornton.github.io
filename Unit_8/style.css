@@ -14,7 +14,7 @@ nav{
 	text-align:right;
 }
 
-nav a { 
+nav a {
 	color: white;
 	margin: 1em;
 	font-size: 20px;
@@ -22,7 +22,7 @@ nav a {
 	display: inline-block;
 	padding: 1px 0;
 
-} 
+}
 
 nav a:hover {
 	background-color: tomato;
@@ -31,7 +31,7 @@ nav a:hover {
 
 nav img {
 	max-height: 50px;
-	float: none; 
+	float: none;
 	margin-right:20px;
 
 }
@@ -40,7 +40,7 @@ a:hover {
 	color: #343D47;
 }
 
-.hero {	
+.hero {
 	background-image: url(images/hero.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -49,11 +49,11 @@ a:hover {
 	font-size: 18px;
 	padding: 12em ;
 	position: relative;
-	width: 100%; 
+	width: 100%;
 	}
 
 .hero h1{
-	font-size: 50px; 
+	font-size: 50px;
 
 }
 
@@ -65,7 +65,7 @@ a:hover {
 /* Gift Section */
 
 .giftblurb
-	{	
+	{
 		float: right;
 		font-size: 20px;
 		line-height: 1.35em;
@@ -81,10 +81,10 @@ a:hover {
 }
 
 
-.reminder img 
+.reminder img
 	{
 		float: right;
-	} 
+	}
 
 .reminderblurb
 	{
@@ -103,7 +103,7 @@ a:hover {
 
 
 .buyblurb
-	{	
+	{
 		float: right;
 		font-size: 20px;
 		line-height: 1.35em;
@@ -120,13 +120,13 @@ a:hover {
 }
 
 #contact {
-	padding-left: 30px; 
+	padding-left: 30px;
 }
 
 /*.herotext {
 	display: inline-block;
 	font-size: 22px;
-	text-shadow: 20px; 
+	text-shadow: 20px;
 	color: #000000;
 	text-align: center;
 }
@@ -179,57 +179,151 @@ h1 {
 		max-width: 100%;
 }
 
+.hero {
+	background-image: url(images/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	padding: 8em;
+	position: relative;
+	width: 100%;
+	}
+
+
 	.herotext {
-	padding-top:10px; 
+	ont-size: 18px;
+	padding-top: 10px;
 	position: relative;
 	margin: auto;
+	font-size: 20px;
 }
 
 	h1 {
 
 		text-align: center;
-   		font-size: 40px;
+   		font-size: 20px;
     	/*padding-left: 90px;*/
 	}
 
-	.blurb { 
+
+
+	.blurb {
 		font-size: 18px;
-		width: 50%; 
+		width: 50%;
 	 }
+ }
 
 @media only screen and (max-width:852px)
 {
-.blurb { 
+.blurb {
 		font-size: 16px;
-		width: 50%; 
+		width: 50%;
 	 }
-	
+
+.hero {
+	background-image: url(images/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	padding: 8em ;
+	position: relative;
+	width: 100%;
+	}
+ }
+
 
 @media only screen and (max-width: 764px)
 
 {
-	.blurb { 
+	.blurb {
 		float: none;
 		text-align: left;
 		font-size: 20px;
 		min-width: 100%;
 		padding-bottom: 1.25em;
+		padding:1.25em 20px;
 	}
 
+	.hero {
+	background-image: url(images/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	padding: 8em ;
+	position: relative;
+	width: 100%;
+	}
+
+	.cta{
+		position: relative;
+	}
 
 	h2 {
 		text-align: center;
 	}
 
-	img { 
-		min-width: 100%;	
+	img {
+		min-width: 100%;
 	}
 
 	nav a {
 		font-size: 16px;
-	
+
+	}
+
+}
+
+@media only screen and (max-width: 600px)
+
+{
+	.blurb {
+		float: none;
+		text-align: left;
+		font-size: 20px;
+		min-width: 100%;
+		padding-bottom: 1.25em;
+		padding:1.25em 20px;
+
+	}
+
+	.hero {
+	background-image: url(images/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-align: center;
+	padding: 5em ;
+	position: relative;
+	width: 100%;
+	}
+
+	.hero p {
+		font-size: 16px
+		display: block;
 	}
 
 
+	.cta{
+		position: relative;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	img {
+		min-width: 100%;
+	}
+
+	nav a {
+		font-size: 16px;
+
+	}
 
 }

@@ -7,7 +7,7 @@
 	max-width: 50%;
 	}
 
-nav{
+nav {
 	background-color: #0abab5;
 	padding: 20px 30px 10px 0;
 	margin-bottom: 10px auto;
@@ -16,29 +16,30 @@ nav{
 
 nav a {
 	color: white;
-	margin: 1em;
-	font-size: 20px;
+	margin: 2.5em 1em;
+	font-size: 22px;
 	text-decoration: none;
 	display: inline-block;
 	padding: 1px 0;
+}
 
+nav img {
+	max-height: 6.5em; 
+	float: left;
+	padding-left: 50px;
+	position:relative;
 }
 
 nav a:hover {
 	background-color: tomato;
 	padding: 1px 0;
+	border-bottom: 2px
 }
 
-nav img {
-	max-height: 50px;
-	float: none;
-	margin-right:20px;
-
-}
-
+/*
 a:hover {
 	color: #343D47;
-}
+}*/
 
 .hero {
 	background-image: url(images/hero.jpg);
@@ -291,6 +292,8 @@ h1 {
 		padding:1.25em 20px;
 
 	}
+
+	<a href="#me
 
 	.hero {
 	background-image: url(images/hero.jpg);

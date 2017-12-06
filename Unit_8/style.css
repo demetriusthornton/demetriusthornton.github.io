@@ -209,7 +209,6 @@ h1 {
 	}
 
 
-
 	.blurb {
 		font-size: 18px;
 		width: 50%;
@@ -234,7 +233,10 @@ h1 {
 	position: relative;
 	width: 100%;
 	}
+
  }
+
+
 
 
 @media only screen and (max-width: 764px)
@@ -274,8 +276,12 @@ h1 {
 	}
 
 	nav a {
-		font-size: 16px;
+		font-size: 20px;
 
+	}
+
+	.navimg{
+		min-width: 10em;
 	}
 
 }
@@ -292,8 +298,6 @@ h1 {
 		padding:1.25em 20px;
 
 	}
-
-	<a href="#me
 
 	.hero {
 	background-image: url(images/hero.jpg);
@@ -325,8 +329,9 @@ h1 {
 	}
 
 	nav a {
-		font-size: 16px;
+		font-size: 18px;
 
 	}
+
 
 }

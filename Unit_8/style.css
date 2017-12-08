@@ -20,20 +20,19 @@ nav a {
 	font-size: 22px;
 	text-decoration: none;
 	display: inline-block;
-	padding: 1px 0;
+	padding: 20px 0;
 }
 
-nav img {
-	max-height: 6.5em; 
-	float: left;
+.navimg {
+	max-height: 10em; 
+	float:left;
 	padding-left: 50px;
 	position:relative;
 }
 
 nav a:hover {
 	background-color: tomato;
-	padding: 1px 0;
-	border-bottom: 2px
+	padding: 10px;
 }
 
 /*

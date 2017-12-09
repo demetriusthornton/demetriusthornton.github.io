@@ -3,6 +3,7 @@
 
 *{ margin:0; padding:0; box-sizing:border-box;}
 
+
 .blurbimg {
 	max-width: 50%;
 	}
@@ -67,6 +68,7 @@ a:hover {
 
 .giftblurb
 	{
+		font: 
 		float: right;
 		font-size: 20px;
 		line-height: 1.35em;

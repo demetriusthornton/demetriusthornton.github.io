@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lato');
+
+
+*{ margin:0; padding:0; box-sizing:border-box;}
+
+
+.blurbimg {
+	max-width: 50%;
+	}
+
+nav {
+	background-color: #0abab5;
+	padding: 20px 30px 10px 0;
+	margin-bottom: 10px auto;
+	text-align:right;
+}
+
+nav a {
+	color: white;
+	margin: 2.5em 1em;
+	font-size: 22px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 0;
+}
+
+.navimg {
+	max-height: 9em; 
+	float: left;
+	padding: 5px 0 0 50px;
+	position:relative;
+}
+
+nav a:hover {
+	background-color: tomato;
+	padding: 1px 0;
+	border-bottom: 2px
+}
+
+/*
+a:hover {
+	color: #343D47;
+}*/
+
+.hero {
+	background-image: url(images/hero2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	padding: 12em ;
+	position: relative;
+	width: 100%;
+	}
+
+.hero h1{
+	font-size: 50px;
+
+}
+
+.hero p {
+	font-size: 26px;
+}
+
+
+/* Gift Section */
+
+.giftblurb
+	{
+		float: right;
+		font-size: 20px;
+		line-height: 1.35em;
+		padding: 5% 5% 5% 2%;
+		width: 50%;
+	}
+
+
+.reminder{
+	float: right;
+	display: inline-block;
+	background-color: #879EB8;
+}
+
+
+.reminder img
+	{
+		float: right;
+	}
+
+.reminderblurb
+	{
+		font-size: 20px;
+		line-height: 1.35em;
+		padding: 5% 2% 0;
+		text-align: right;
+		width: 50%;
+	}
+
+.buy {
+	float: left;
+	display: inline-block;
+	margin: auto;
+}
+
+
+.buyblurb
+	{
+		float: right;
+		font-size: 20px;
+		line-height: 1.35em;
+		padding: 5% 2% 0;
+		width: 50%;
+	}
+
+
+#slogin {
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	padding-bottom: 80px;
+}
+
+#contact {
+	padding-left: 30px;
+}
+
+/*.herotext {
+	display: inline-block;
+	font-size: 22px;
+	text-shadow: 20px;
+	color: #000000;
+	text-align: center;
+}
+*/
+.cta {
+	display: inline-block;
+	background-color: tomato;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 6px;
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+	margin-top: 20px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+/*
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 90px;
+}*/
+/*
+.herotext
+{
+	color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+
+
+@media only screen and (max-width: 950px) {
+
+	img {
+		max-width: 100%;
+}
+ nav{
+ 	im 
+ }
+
+
+
+.hero {
+	background-image: url(images/hero2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	padding: 8em;
+	position: relative;
+	width: 100%;
+	}
+
+
+	.herotext {
+	ont-size: 18px;
+	padding-top: 10px;
+	position: relative;
+	margin: auto;
+	font-size: 20px;
+}
+
+	h1 {
+
+		text-align: center;
+   		font-size: 20px;
+    	/*padding-left: 90px;*/
+	}
+
+
+	.blurb {
+		font-size: 18px;
+		width: 50%;
+	 }
+ }
+
+@media only screen and (max-width:852px)
+{
+.blurb {
+		font-size: 16px;
+		width: 50%;
+	 }
+
+.hero {
+		background-image: url(images/hero.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: inline-block;
+		text-align: center;
+		font-size: 18px;
+		padding: 8em ;
+		position: relative;
+		width: 100%;
+		}
+
+		.navimg{
+		max-width: 5px;
+		display: inline-block;
+
+	}
+
+ }
+
+@media only screen and (max-width: 764px)
+
+{
+	.blurb {
+		float: none;
+		text-align: left;
+		font-size: 20px;
+		min-width: 100%;
+		padding-bottom: 1.25em;
+		padding:1.25em 20px;
+	}
+
+	.hero {
+		background-image: url(images/hero.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: inline-block;
+		text-align: center;
+		font-size: 18px;
+		padding: 8em ;
+		position: relative;
+		width: 100%;
+	}
+
+	.cta{
+		position: relative;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	img {
+		min-width: 100%;
+	}
+
+	nav a {
+		font-size: 20px;
+
+	}
+
+	.navimg{
+		max-width: 5px;
+		display: inline-block;
+
+	}
+
+}
+
+@media only screen and (max-width: 600px)
+
+{
+	.blurb {
+		float: none;
+		text-align: left;
+		font-size: 20px;
+		min-width: 100%;
+		padding-bottom: 1.25em;
+		padding:1.25em 20px;
+
+	}
+
+	.hero {
+		background-image: url(images/hero.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: inline-block;
+		text-align: center;
+		padding: 5em ;
+		position: relative;
+		width: 100%;
+	}
+
+	.hero p {
+		font-size: 16px
+		display: block;
+	}
+
+
+	.cta{
+		position: relative;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	img {
+		min-width: 100%;
+	}
+
+	nav a {
+		font-size: 18px;
+
+	}
+
+	.navimg{
+		max-width: 5px;
+		display: inline-block;
+
+	}
+
+
+}

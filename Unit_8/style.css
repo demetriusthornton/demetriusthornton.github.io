@@ -24,10 +24,10 @@ nav a {
 	padding: 1px 0;
 }
 
-nav img {
-	max-height: 6.5em; 
+.navimg {
+	max-height: 9em; 
 	float: left;
-	padding-left: 50px;
+	padding: 5px 0 0 50px;
 	position:relative;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 }*/
 
 .hero {
-	background-image: url(images/hero.jpg);
+	background-image: url(images/hero2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -68,7 +68,6 @@ a:hover {
 
 .giftblurb
 	{
-		font: 
 		float: right;
 		font-size: 20px;
 		line-height: 1.35em;
@@ -181,9 +180,14 @@ h1 {
 	img {
 		max-width: 100%;
 }
+ nav{
+ 	im 
+ }
+
+
 
 .hero {
-	background-image: url(images/hero.jpg);
+	background-image: url(images/hero2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -225,21 +229,24 @@ h1 {
 	 }
 
 .hero {
-	background-image: url(images/hero.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: inline-block;
-	text-align: center;
-	font-size: 18px;
-	padding: 8em ;
-	position: relative;
-	width: 100%;
+		background-image: url(images/hero.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: inline-block;
+		text-align: center;
+		font-size: 18px;
+		padding: 8em ;
+		position: relative;
+		width: 100%;
+		}
+
+		.navimg{
+		max-width: 5px;
+		display: inline-block;
+
 	}
 
  }
-
-
-
 
 @media only screen and (max-width: 764px)
 
@@ -254,15 +261,15 @@ h1 {
 	}
 
 	.hero {
-	background-image: url(images/hero.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: inline-block;
-	text-align: center;
-	font-size: 18px;
-	padding: 8em ;
-	position: relative;
-	width: 100%;
+		background-image: url(images/hero.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: inline-block;
+		text-align: center;
+		font-size: 18px;
+		padding: 8em ;
+		position: relative;
+		width: 100%;
 	}
 
 	.cta{
@@ -283,7 +290,9 @@ h1 {
 	}
 
 	.navimg{
-		min-width: 10em;
+		max-width: 5px;
+		display: inline-block;
+
 	}
 
 }
@@ -302,14 +311,14 @@ h1 {
 	}
 
 	.hero {
-	background-image: url(images/hero.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: inline-block;
-	text-align: center;
-	padding: 5em ;
-	position: relative;
-	width: 100%;
+		background-image: url(images/hero.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: inline-block;
+		text-align: center;
+		padding: 5em ;
+		position: relative;
+		width: 100%;
 	}
 
 	.hero p {
@@ -332,6 +341,12 @@ h1 {
 
 	nav a {
 		font-size: 18px;
+
+	}
+
+	.navimg{
+		max-width: 5px;
+		display: inline-block;
 
 	}
 

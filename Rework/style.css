@@ -13,12 +13,13 @@ nav a {
 	text-decoration: none;
 }
 
-a	{
+.content a	{
 	background-color: orange;
 	border-radius: 10px;
 	color: tomato;
 	padding:10px;
 	text-decoration: none;
+	margin-top: 1em;
 }
 
 p {

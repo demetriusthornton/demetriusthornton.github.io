@@ -24,8 +24,14 @@ nav a {
 	padding: 1px 0;
 }
 
+.fas fa-home fa-lg
+	{
+font-family: Lato;
+
+	}
+
 .navimg {
-	max-height: 9em; 
+	max-height: 9em;
 	float: left;
 	padding: 5px 0 0 50px;
 	position:relative;
@@ -176,7 +182,7 @@ h1 {
 		max-width: 100%;
 }
  nav{
- 	im 
+ 	im
  }
 
 
